@@ -1,0 +1,52 @@
+h1 {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* * {
+    border: solid;
+} */
+
+.item{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.made{
+    font-size: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.end{
+    font-size:30px;
+    font-weight:500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
